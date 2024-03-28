@@ -2373,4 +2373,7 @@
             <param sensitive="false" name="Onfido region" help="'EU', 'US' or 'CA'. Default: 'EU'."/>
         </identityverificationprovider>
     </extension>
+
+    <extension autoload="true" class="com.generalbytes.batm.server.extensions.extra.atmbiz.AtmbizExtension"/>
+
 </extensions>
